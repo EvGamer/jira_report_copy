@@ -21,7 +21,8 @@ const generateManifest = (seed, files, entries) => {
       "<all_urls>"
     ],
     permissions: [
-      "activeTab"
+      "activeTab",
+      "clipboardWrite"
     ]
   }
 }
