@@ -13,7 +13,7 @@ const getTextContentByName = (parent, name) => {
 }
 
 const getReportLine = ({ date, id, duration, comment }) => {
-  return `${formatTime(date)} ${id} ${comment} ${duration}`
+  return `${formatTime(date)} ${duration} ${id} ${comment}`
 }
 const TIME_FORMAT = new Intl.DateTimeFormat("ru-RU", { timeStyle: "short" });
 
